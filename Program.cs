@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+//discord highlights bot
+//created by CaptainJens
+using System.Threading.Tasks;
 using System.Drawing;
 using Discord;
 using Discord.WebSocket;
