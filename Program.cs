@@ -20,7 +20,7 @@ namespace Koggy
             FriendsKoggy.SetServer(Bot.ServerType.Friends);
             BRKoggy.SetServer(Bot.ServerType.BR);
 
-            await DiscordKoggy.LoginAsync(TokenType.Bot, "NDIxNDIyOTExNzQ0OTAxMTMw.DYRDNA.qulOwQBvfdIAlMJHn2PBNjoBI-4");
+            await DiscordKoggy.LoginAsync(TokenType.Bot, TOKEN);
             await DiscordKoggy.StartAsync();
             await DiscordKoggy.SetGameAsync("Koggy highlights");
             DiscordKoggy.MessageReceived += MessageReceived;
